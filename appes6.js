@@ -137,7 +137,6 @@ document.getElementById("book-form").addEventListener("submit", function (e) {
 document.getElementById("book-list").addEventListener("click", function (e) {
   // Instantiate UI
   const ui = new UI();
-
   // Delete Book
   ui.deleteBook(e.target);
 

@@ -8,7 +8,7 @@ function Book(title, author, isbn) {
 // UI Constructor
 function UI() {}
 
-//Add Book Tp LISt
+//Add Book To LISt
 UI.prototype.addBookToList = function (book) {
   const list = document.getElementById("book-list");
   // Create TR element
@@ -97,3 +97,7 @@ document.getElementById("book-list").addEventListener("click", function (e) {
   ui.showAlert("Book Removed!", "success");
   e.preventDefault();
 });
+
+const store = localStorage.setItem
+console.log(store);
+
